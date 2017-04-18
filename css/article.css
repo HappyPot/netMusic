@@ -1,0 +1,151 @@
+article{
+	width: calc(100% - 200px);
+	overflow-x: hidden;
+}
+/*我喜欢的音乐首页*/
+#like_music{
+	display: flex;
+	width: 100%;
+	height: 310px;
+	/*background-color: #c6c0ff;*/
+	position: relative;
+	top: 50px;
+	z-index: -1000;
+}
+#like_music_img{
+	/*background-color: pink;*/
+	width: 260px;
+	height: 280px;
+	flex: 1;
+}
+#like_music_img img{
+	width: 200px;
+	height: 200px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+/**/
+#like_music_info{
+	/*background-color: lightcyan;*/
+	width: 260px;
+	height: 280px;
+	flex: 2.3;
+	padding-top: 30px;
+}
+#inof_1 span:first-child{
+	background-color: #c62f2f;
+	border-radius: 2px;
+	color: white;
+	font-size: 14px;
+	padding: 0 7px;
+}
+#inof_1 span:last-child{
+	font-family:"宋体";
+}
+#inof_2{
+	padding-top: 10px;
+	color: #666666;
+	font-size: 12px;
+	font-family: arial;
+}
+#inof_2 span{
+	line-height: 20px;
+	margin-left: 10px;
+}
+#inof_2 b{
+	color: #888888;
+	padding-left: 16px;
+}
+#inof_3{
+	margin-top: 18px;
+}
+#inof_3 ul{
+	overflow: hidden;
+	margin-left: 1px;
+}
+#inof_3 li{
+	/*float: left;*/
+	display: inline-block;
+	color: #333333;
+	font-size: 12px;
+	font-family:"宋体";
+	height: 24px;
+	border:1px solid #e1e1e2;
+	/*padding: 5px 10px;*/
+	margin-right: 10px;
+	border-radius: 4px;
+	line-height: 24px;
+	padding: 0 4px;
+}
+#inof_3 ul li img{
+	height:14px;
+	width:14px;
+	margin-bottom: -3px;
+	margin-right: 2px;
+}
+#inof_3 ul li span{
+	margin-left: 1px;
+}
+/**/
+#like_music_icon{
+	/*background-color: lightgreen;*/
+	width: 260px;
+	height: 280px;
+	flex: 1;
+	color: #666666;
+	font-size: 12px;
+}
+#like_music_icon div{
+	margin-right: 12px;
+	margin-top: 30px;
+	float: right;
+}
+/*music_tab*/
+#music_tab{
+	margin-top: 17px;
+	display: inline-block;
+}
+#music_tab ul{
+	margin-left: 30px;
+}
+#music_tab ul li{
+	border: 1px solid #e1e1e2;
+	border-bottom: 0px;
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	background-color: white;
+	display: inline-block;
+	cursor: pointer;
+}
+#music_tab ul li:hover{
+	background-color: #e5e5e7;
+}
+#music_tab ul li:link{
+	background-color: #c62f2f;
+}
+.music_2{
+	background-color: #C62F2F;/*带添加类*/
+}
+/*搜索歌单音乐*/
+#search2{
+	float: right;
+	margin-right: -20px;
+	margin-top: 24px;
+}
+#search2 input{
+	width: 180px;
+	background: white;
+	border-radius: 10px;
+	border: 1px solid #e1e1e2;
+	text-decoration: none;
+	padding-left: 5px;
+	color: #cccccc;
+	margin-right: 30px;
+}
+/*音乐列表*/
+#list_main{
+	border-top: 1px solid #c62f2f;
+}

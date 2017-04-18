@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1"/>-->
+		<title>网易云音乐</title>
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="js/layer.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/layer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/content.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/article.css"/>
+		
+	</head>
+	<body>
+		<div id="container_main">
+			<!--header-->
+			<header>
+				<nav>
+					<div id="logo" class="nav">
+						
+					</div>
+					<span class="nav">网易云音乐</span>
+					<div id="search" class="nav">
+						<a href="" ><div>&lt;</div></a>
+						<a href="" ><div>&gt;</div></a>
+						<input type="search" name="" id="" placeholder="搜索音乐，歌手，歌词，用户" />
+					</div>
+					<div id="setting" class="nav">
+						<ul>
+							<li><a href="">
+									<div id="head_pic"></div>
+									<span>happypot</span>
+									<div id="down"></div>
+								</a>
+							</li>  
+							<li><a href="">
+									<div id="theme" class=""></div>
+								</a>
+							</li>
+							<li><a href="">
+									<div id="message"></div>
+								</a>
+							</li>
+							<li><a href="">
+									<div id="set"></div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+			<!--content-->
+			<div id="content">
+				<aside>
+					<div id="recommend">
+						<p>推荐</p>
+						<ul>
+							<li><span class="music"></span><a href="">发现音乐</a></li>
+							<li><span class="radio"></span><a href="">私人FM</a></li>
+							<li><span class="MV"></span><a href="">MV</a></li>
+							<li><span class="friend"></span><a href="">朋友</a></li>
+						</ul>
+					</div>
+					<div id="recommend" class="my_music">
+						<p>我的音乐
+							<span class="downward1 slide_music_list"></span>
+						</p>
+						<ul class="my_music_list">
+							<li><span class="local_music"></span><a href="">本地音乐</a></li>
+							<li><span class="downing"></span><a href="">下载管理</a></li>
+							<li><span class="cloud"></span><a href="">我的音乐云盘</a></li>
+							<li><span class="song"></span><a href="">我的歌手</a></li>
+						</ul>
+					</div>
+					<div id="recommend" class="my_music">
+						<p>创建的歌单
+							<span class="add add_list"></span>
+							<span class="downward slide_like"></span>
+						</p>
+						
+						<ul>
+							<li class="collect_like"><span class="heart"></span>
+								<a href="" >我喜欢的音乐</a>
+								<span class="red_horn"></span>
+							</li>
+						</ul>
+					</div>
+					<div id="recommend" class="my_music">
+						<p>收藏歌单<span class="downward1 slide_list"></span></p>
+						<ul class="collect_list">
+							<li><span class="music_list"></span><a href="" id="music_list"><b>情调小酒馆，微醺沉醉的</b></a></li>
+							<li><span class="music_list"></span><a href="" id="music_list"><b>『日系』值得循环的50首</b></a></li>
+							<li><span class="music_list"></span><a href="" id="music_list"><b>追忆向【童年不是喜洋洋】</b></a></li>
+							<!--<li><span class="music_list"></span><a href="" id="music_list"><b>追忆向【童年不是喜洋洋】</b></a></li>-->
+						</ul>
+					</div>
+					<div id="music_name" title="双击隐藏">
+						<img src="img/musi_name.jpg"/>
+						<div id="music_name_text">
+							<div id="div1">My Story</div>
+							<div id="div2">Every Single anthor </div>
+							<a href="" class="music_img"></a>
+							<a href="" class="transmit"></a>
+						</div>
+					</div>
+				</aside>
+				<article>
+					<div id="like_music">
+						<div id="like_music_img">
+							<img src="img/demo_music.jpg"/>
+						</div>
+						<div id="like_music_info">
+							<div id="inof_1">
+								<span>歌单</span>
+								<span>我喜欢的音乐</span>
+							</div>
+							<div id="inof_2">
+								<div id="head_pic"></div>
+									<span>happypot</span>
+									<b>2016-10-28创建</b>
+								<!--<div id="down"></div>-->
+							</div>
+							<div id="inof_3">
+								<ul>
+									<li><img src="sprite/local_music.png"/><span>播放全部</span></li>
+									<li>收藏</li>
+									<li>分享</li>
+									<li>下载全部</li>
+								</ul>
+							</div>
+						</div>
+						<div id="like_music_icon">
+							
+							<div><img src="sprite/music_content.png"/>
+								<span class="icon_text2">60</span>
+							</div>
+							<div><img src="sprite/music.png"/>
+								<span class="icon_text1">46</span>
+							</div>
+						</div>
+					</div>
+					<div id="music_tab">
+						<ul>
+							<li>歌曲列表</li>
+							<li>评论<span>(0)</span></li>
+							<li>收藏者</li>
+						</ul>
+					</div>
+					<div id="search2">
+						<input type="search" name="" id="" value="" placeholder="搜索歌单音乐"/>
+					</div>
+					<div id="list_main">
+						<ul>
+							<li>
+								<span class="num">&nbsp;</span
+								><span class="oper">操作</span
+								><span class="title_music">音乐标题</span
+								><span class="singer">歌手</span
+								><span class="album1">专辑</span
+								><span class="duration">时长</span>
+							</li>
+							<li>
+								<span class="num">01</span
+								><span class="oper">
+									<b class="heart_1"></b>
+									<b class="transmit_1"></b>
+								</span
+								><span class="title_music">
+									ALWAYS
+								</span
+								><span class="singer">
+									伊美莱
+								</span
+								><span class="album">
+									电视剧《太阳的后裔》OST Part.1 (太阳的后裔 OST Part.1)
+								</span
+								><span class="duration">
+									<!--03:46-->
+								</span>
+							</li>
+							<li>
+								<span class="num">02</span
+								><span class="oper">
+									<b class="heart_1"></b>
+									<b class="transmit_1"></b>
+								</span
+								><span class="title_music">
+									Ta main
+								</span
+								><span class="singer">
+									Gregoire
+								</span
+								><span class="album">
+									TOI+MOI
+								</span
+								><span class="duration">
+									<!--03:46-->
+								</span>
+							</li>
+							<li>
+								<span class="num">03</span
+								><span class="oper">
+									<b class="heart_1"></b>
+									<b class="transmit_1"></b>
+								</span
+								><span class="title_music">
+									好多多的云
+								</span
+								><span class="singer">
+									崔跃文
+								</span
+								><span class="album">
+									好多多的云
+								</span
+								><span class="duration">
+									<!--03:46-->
+								</span>
+							</li>
+							<li>
+								<span class="num">04</span
+								><span class="oper">
+									<b class="heart_1"></b>
+									<b class="transmit_1"></b>
+								</span
+								><span class="title_music">
+									她说
+								</span
+								><span class="singer">
+									林俊杰
+								</span
+								><span class="album">
+									她说 概念自选辑
+								</span
+								><span class="duration">
+									<!--03:46-->
+								</span>
+							</li>
+							<li>
+								<span class="num">05</span
+								><span class="oper">
+									<b class="heart_1"></b>
+									<b class="transmit_1"></b>
+								</span
+								><span class="title_music">
+									陪你度过漫长岁月
+								</span
+								><span class="singer">
+									陈奕迅
+								</span
+								><span class="album">
+									陪你度过漫长岁月
+								</span
+								><span class="duration">
+									<!--04:02-->
+								</span>
+							</li>
+							<li>
+								<span class="num">06</span
+								><span class="oper">
+									<b class="heart_1"></b>
+									<b class="transmit_1"></b>
+								</span
+								><span class="title_music">
+									南山南
+								</span
+								><span class="singer">
+									张磊
+								</span
+								><span class="album">
+									《中国好声音》
+								</span
+								><span class="duration">
+									<!--04:02-->
+								</span>
+							</li>
+						</ul>
+					</div>
+				</article>
+			</div>
+			<!---->
+				<div id="no_move">
+					<div id="no_move_main">
+						<a href="" class="pre_music"></a>
+						<a href="" class="play"></a>
+						<a href="" class="next_music"></a>
+						<div class="time">
+							<p id="minu">00</p>:<p id="sec">00</p>
+							<input type="range" name="" id="" value="0" min="0.1" max="88"/>
+							<p id="alltime">03:50</p>
+							<p id="prograss_main">
+								<a class="horn"></a>
+								<input type="prograss" name="" id="" value="" />
+							</p>
+						</div>
+					</div>
+				</div>
+				<video src="music/南山南.mp3" controls class="video" style="display: none;" ></video>
+		</div>
+	</body>
+</html>
