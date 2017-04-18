@@ -1,0 +1,105 @@
+/*#music_name{
+width: 200px;
+height: 60px;
+background-color: #f5f5f7;
+position: fixed;
+bottom: 50px;
+left: 10vw;
+border: 1px solid #E1E1E1;
+ 	}*/
+	
+#no_move{
+	width: 100%;
+	margin: 0 auto;
+	border-top: 1px solid #E1E1E1;
+	position:fixed;
+	bottom: 0px;
+	background-color: white;
+}
+#no_move_main{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	/*position: relative;*/
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	background-color: white;
+}
+#no_move_main a{
+	display: inline-block;
+	background-image: url(../img/img.png);
+	line-height: 50px;
+}
+.pre_music{
+	height:30px;
+	width:30px;
+	background-position:0 -273px;
+	position: absolute;
+	top:10px;
+	left: 30px;
+}
+.play{
+	height:34px;
+	width:36px;
+	background-position:0 -367px;
+	position: absolute;
+	top:8px;
+	left: 84px;
+	}
+.stop{
+	height:34px;
+	width:36px;
+	background-position:0 -332px;
+	position: absolute;
+	top:8px;
+	left: 84px;
+}
+.next_music{
+	height:30px;
+	width:30px;
+	background-position:0 -302px;
+	position: absolute;
+	top:10px;
+	left: 142px;
+	}
+	/*进度条*/
+.time{
+	position:absolute;
+	left: 205px;
+	color: #323232;
+	line-height: 50px;width: 80%;
+	font-size: 12px;
+	}
+.time p{
+	display: inline;
+}
+.time input{
+	width: 50%;
+	height: 4px;
+	background-color: #c6c6c6;
+	border-radius: 10px;
+	 -moz-appearance: none;
+}
+.horn{
+	position: relative;
+	top: 4px;
+	height:16px;
+	width:16px;
+	background-position:0 -144px;
+	cursor: pointer;
+	}
+#prograss_main{
+	margin-left: 26px;
+	display: inline-block;
+	width: 100px;
+}
+#prograss_main input{
+	background-color: #e83c3c;
+	height: 2px;
+	margin-left: 5px;
+	position: relative;
+	top: 2px;
+	cursor: pointer;
+}
+
